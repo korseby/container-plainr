@@ -5,7 +5,7 @@ MAINTAINER Kristian Peters <kpeters@ipb-halle.de>
 LABEL Description="Here, Bioconductor is being installed in Docker."
 
 # Add scripts folder to container
-ADD http://raw.githubusercontent.com/korseby/phenomenal/master/docker-test/rscript.r /scripts/
+ADD https://raw.githubusercontent.com/korseby/docker-plainr/master/rscript.r /scripts/
 
 # add cran R backport
 RUN apt-key adv --keyserver keys.gnupg.net --recv-key 381BA480
