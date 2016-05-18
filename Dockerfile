@@ -2,7 +2,7 @@ FROM debian
 
 MAINTAINER Kristian Peters <kpeters@ipb-halle.de>
 
-LABEL Description="Here, Bioconductor is being installed in Docker."
+LABEL Description="Execute an R script inside docker."
 
 # Add scripts folder to container
 ADD https://raw.githubusercontent.com/korseby/docker-plainr/master/rscript.r /scripts/
